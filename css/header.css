@@ -1,0 +1,39 @@
+/* header */
+header {
+  position: sticky;
+  top: 0;
+}
+
+header .navigasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background: #000000cd;
+}
+
+header .navigasi .logo img {
+  height: 60px;
+  width: 180px;
+  margin-left: 20px;
+}
+
+header .navigasi .menu-list {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+header .navigasi .menu-list li a {
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+header .navigasi .menu-list li a:hover {
+  color: red;
+  transition: 1.5s;
+}
+
+/* end header */
