@@ -35,6 +35,19 @@
   color: black;
 }
 
+.maps {
+  margin: 100px 0;
+}
+
+.maps h2 {
+  text-align: center;
+}
+
+.maps iframe {
+  width: 100%;
+  height: 300px;
+}
+
 @media screen and (max-width: 426px) {
   .wrapper-berita .card .card-body {
     padding: 10px;

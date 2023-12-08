@@ -31,8 +31,6 @@
 
 /* end hero */
 
-/* main */
-
 /* sambutan */
 .sambutan {
   display: grid;
@@ -76,6 +74,19 @@
 }
 
 /* end welcome */
+
+.maps {
+  margin: 100px 0;
+}
+
+.maps h2 {
+  text-align: center;
+}
+
+.maps iframe {
+  width: 100%;
+  height: 300px;
+}
 
 /* media query 426px */
 @media screen and (max-width: 426px) {
